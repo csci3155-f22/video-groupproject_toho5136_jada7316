@@ -37,7 +37,7 @@ Person 2: As the name implies, this function will "remove" any element in the ar
 
 Person 1: The point is that this can be used to quickly remove elements from an array, while still making the code very readable. In this situation, we are taking the previous result and pruning any values that are odd numbers.\
 
-Person 2: This means that the final array stored in 'nums_arr' will be even numbers that are equal to the sum of one and another number squared, given that number is less than ten. This is relatively complex barring any type conversions and printing, only takes two lines of code.\
+Person 2: This means that the final array stored in 'nums_arr' will be even numbers that are equal to the sum of one and another number squared, given that number is less than ten. This is relatively complex  and barring any type conversions and printing, only takes two lines of code.\
 
 Person 1: There are many different versions of 'remove_if', including 'replace_if' and 'remove_copy_if', but at its core, this is the most straightforward and intuitive of all of them.\
 
