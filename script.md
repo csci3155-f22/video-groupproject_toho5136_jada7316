@@ -25,7 +25,7 @@ Person 2: In this specific scenario, the first and second parameters refer to th
 
 Person 1: The transform function requires that the callback function inputted has a single parameter matching the type of the vector referred to by the other parameters. It can have any return type, as long as it can be stored within a vector.\
 
-Person 2: As demonstrated below, after transform is called, the values stored in num are no longer their original values, but instead the returns of what 'square_plus_one' when each element is inserted as the parameter.\
+Person 2: As demonstrated below, after transform is called, the values stored in num are no longer their original values, but instead the returns of 'square_plus_one' when each element is inserted as the parameter.\
 
 Person 1: If one wanted to instead create a new vector instead of replacing the old one, they could instantiate a blank vector starting at nums.end() and instead change the third parameter to nums.end(), as that third parameter dictates where the results will be allocated to.\
 
